@@ -1,14 +1,17 @@
-import { useState } from 'react'
-import './App.css'
+import "./App.css";
+import Search from "./components/search/search";
+import Table from "./components/table/table";
+import { Provider } from "./context/provider";
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-     <h1>hello</h1>
-    </>
-  )
+	return (
+		<Provider>
+			<div className="container">
+				<Search />
+				<Table />
+			</div>
+		</Provider>
+	);
 }
 
-export default App
+export default App;

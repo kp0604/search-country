@@ -1,8 +1,22 @@
-# React + Vite
+Project made on these requirements - 
+https://gist.github.com/shhdharmen/35663b9ded76405102e110b5dff1722c
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+I have completed all features asked and used only 1 library that is axios.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Getting Started 
+
+git clone https://github.com/kp0604/search-country.git
+cd /
+npm install
+
+Start Development Server 
+
+npm run dev
+
+server will run on -
+http://localhost:5173/
+
+
+
+Note - in bonus section for limiting api calls on keystrokes a mechanism is asked , i could have applied debouncing but the calls are already limited as the searching call is done only when user uses keyboard shortcut which was asked as functionality instruction so debouncing is not used in this case.
